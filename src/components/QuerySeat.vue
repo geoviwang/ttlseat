@@ -1,6 +1,7 @@
 <template>
   <div class="container">
     <br />
+    <div class="col-fixed">
     <div class="row">
       <div class="col-4">
           <div class="row">
@@ -46,6 +47,7 @@
           </div>
         </div>
       </div>
+    </div>
     </div>
   </div>
 </template>
@@ -150,33 +152,21 @@ export default {
 <style scoped>
 .seat {
     border: 3px solid;
-    border-radius: 99em;
+    border-radius: 100%;
     width: 40px;
     height: 40px;
 }
 .empty {
     background-color: blue;
-    border: 3px solid;
-    border-radius: 99em;
-    width: 40px;
-    height: 40px;
 }
 .arrival {
     background-color: red;
-    border: 3px solid;
-    border-radius: 99em;
-    width: 40px;
-    height: 40px;
     animation-name: oxxo;
     animation-duration:2s;
     animation-iteration-count: infinite;
 }
 .awhile {
     background-color: red;
-    border: 3px solid;
-    border-radius: 99em;
-    width: 40px;
-    height: 40px;
 }
 
 @keyframes oxxo{
@@ -195,5 +185,8 @@ export default {
     border: 3px solid;
     width: 100%;
     height: 172px;
+}
+.col-fixed {
+  width: 1200px;
 }
 </style>

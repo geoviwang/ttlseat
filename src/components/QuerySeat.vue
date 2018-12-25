@@ -123,7 +123,7 @@ export default {
                 db.ref('/seat/' + id).set({
                    people: 'awhile'
                 });
-            }, 10000);
+            }, 1800000);
          } else {
             db.ref('/seat/' + id).set({
                people: 'empty'
@@ -187,6 +187,6 @@ export default {
     height: 172px;
 }
 .col-fixed {
-  width: 1200px;
+  width: 1080px;
 }
 </style>

@@ -2,7 +2,7 @@
   "name": "ttlseat",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://cheng0639.github.io/ttlseat",
+  "homepage": "https://geoviwang.github.io/ttlseat",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",

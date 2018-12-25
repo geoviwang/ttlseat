@@ -2,9 +2,12 @@
   "name": "ttlseat",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://cheng0639.github.io/ttlseat",
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build"
+    "build": "vue-cli-service build",
+    "predeploy": "vue-cli-service build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "bootstrap": "^4.1.3",
@@ -17,6 +20,7 @@
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.0.3",
     "@vue/cli-service": "^3.0.3",
+    "gh-pages": "^2.0.1",
     "vue-template-compiler": "^2.5.17"
   }
 }
